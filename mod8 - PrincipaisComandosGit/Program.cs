@@ -5,11 +5,12 @@ namespace mod8___PrincipaisComandosGit {
         static void Main(string[] args) {
             Console.WriteLine("PREPARANDO A PASTA:");
             Console.WriteLine("► CRIAR ARQUIVO .gitignore:");
-            Console.WriteLine("-- O gitignore serve para mostrar ao git os arquivos que não são necesários fazer o versionamento");
+            Console.WriteLine("-- O .gitignore serve para mostrar ao git os arquivos que não são necesários fazer o versionamento");
             Console.WriteLine("- Crie um arquivo x.txt\n" +
                 "- Abra um cmd na pasta, para isso segure a tecla Shift e clique com botão esquerdo do mouse e selecione a opção 'Abrir cmd aqui'\n" +
                 "- No cmd digite: ren NOMEDOARQUIVO.txt .gitignore\n" +
                 "- Tecle Enter e feche o terminal\n" +
+                "OBS.: Em alguns sistemas é possível criar diretamente o arquivo, basta apenas selecionar tudo, incluindo a extensao, e digitar .gitignore\n" +
                 "- Abra o arquivo com o bloco de notas\n" +
                 "- Pesquise por 'gitignore visual studio 2019' ou o editor com a versáo que esteja usando\n" +
                 "- Entre no link do github\n" +
@@ -26,15 +27,18 @@ namespace mod8___PrincipaisComandosGit {
             Console.WriteLine("-- Serve para indicar ao Git quem fez a alteração no programa");
             Console.WriteLine("- Informe seu nome com o comando 'git config --global user.name ''SEU NOME'''\n" +
                 " - Informe seu nome com o comando 'git config --global user.email ''SEU EMAIL'''\n" +
-                "OBS.: É importante que coloque o email cadastrado no github para vincular à conta posteriormente");
+                "OBS.: É importante que coloque o email cadastrado no github para vincular à conta posteriormente\n");
 
 
             Console.WriteLine("► SALVAR VERSÕES DO PROJETO - COMANDOS ADD - COMMIT - STATUS - LOG");
             Console.WriteLine("- Verifique como está o repositório, para isso digite o comando:\n" +
                 "'git status'\n" +
                 "Em VERMELHO são os arquivos não rastreados (untracked)\n" +
-                "Em VERDE são os arquivos 'commitados' (stage)\n" +
-                "");
+                "Em VERDE são os arquivos prontos para serem 'commitados' (stage)\n" +
+                "- Os arquivos novos ou modificados vao estar em 'untracked', para mover para a área 'stage' digite o comando:\n" +
+                "'git add .'\n" +
+                "- Após mover os arquivos faca o commit, para isso digite o comando:\n" +
+                "'git commit -m ''DESCREVA O QUE FOI FEITO ATÉ O MOMENTO'''");
 
             Console.WriteLine("");
         }
