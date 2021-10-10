@@ -22,13 +22,11 @@ namespace mod8___PrincipaisComandosGit {
                 "- Selecione a opção 'iniciar Git Bash aqui'\n" +
                 "- Digite 'git init'\n");
 
-
             Console.WriteLine("► CONFIGURAR O GIT - COMANDO CONFIG");
             Console.WriteLine("-- Serve para indicar ao Git quem fez a alteração no programa");
             Console.WriteLine("- Informe seu nome com o comando 'git config --global user.name ''SEU NOME'''\n" +
                 " - Informe seu nome com o comando 'git config --global user.email ''SEU EMAIL'''\n" +
                 "OBS.: É importante que coloque o email cadastrado no github para vincular à conta posteriormente\n");
-
 
             Console.WriteLine("► SALVAR VERSÕES DO PROJETO - COMANDOS ADD - COMMIT - STATUS - LOG");
             Console.WriteLine("- Verifique como está o repositório, para isso digite o comando:\n" +
@@ -44,8 +42,17 @@ namespace mod8___PrincipaisComandosGit {
                 "Existe uma forma mais resumida de mostrar os commit's com o comando:\n" +
                 "'git log --oneline'\n");
 
-                
-            Console.WriteLine("");
+            Console.WriteLine("► VOLTAR AO COMMIT ATUAL - COMANDO CLEAN E CHECKOUT");
+            Console.WriteLine("-- Esses comando sáo usados caso de algum erro ou voce se perca no projeto, ele volta para o estado do ultimo commit feito, descartando todas as modificacoes");
+            Console.WriteLine("- Para voltar ao estado do ultimo commit, digite:\n" +
+                "'git clean -df'\n" +
+                "Após esse comando digite:\n" +
+                "'git checkout -- .'");
+
+            Console.WriteLine();
+        
+        
+        
         }
     }
 }
