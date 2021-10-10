@@ -8,9 +8,9 @@ namespace mod8___PrincipaisComandosGit {
             Console.WriteLine("-- O .gitignore serve para mostrar ao git os arquivos que não são necesários fazer o versionamento");
             Console.WriteLine("- Crie um arquivo x.txt\n" +
                 "- Abra um cmd na pasta, para isso segure a tecla Shift e clique com botão esquerdo do mouse e selecione a opção 'Abrir cmd aqui'\n" +
-                "- No cmd digite: ren NOMEDOARQUIVO.txt .gitignore\n" +
+                "- No cmd digite: 'ren NOMEDOARQUIVO.txt .gitignore'\n" +
                 "- Tecle Enter e feche o terminal\n" +
-                "OBS.: Em alguns sistemas é possível criar diretamente o arquivo, basta apenas selecionar tudo, incluindo a extensao, e digitar .gitignore\n" +
+                "OBS.: Em alguns sistemas é possível criar diretamente o arquivo, basta apenas selecionar tudo, incluindo a extensao, e digitar '.gitignore'\n" +
                 "- Abra o arquivo com o bloco de notas\n" +
                 "- Pesquise por 'gitignore visual studio 2019' ou o editor com a versáo que esteja usando\n" +
                 "- Entre no link do github\n" +
@@ -38,8 +38,13 @@ namespace mod8___PrincipaisComandosGit {
                 "- Os arquivos novos ou modificados vao estar em 'untracked', para mover para a área 'stage' digite o comando:\n" +
                 "'git add .'\n" +
                 "- Após mover os arquivos faca o commit, para isso digite o comando:\n" +
-                "'git commit -m ''DESCREVA O QUE FOI FEITO ATÉ O MOMENTO'''");
+                "'git commit -m ''DESCREVA O QUE FOI FEITO ATÉ O MOMENTO'''\n" +
+                "Para verificar todos os commit's existe o comando LOG, que mostra todos os dados do commit, como o nome e email do autor do commit, data e hora, para isso digite:\n" +
+                "'git log'\n" +
+                "Existe uma forma mais resumida de mostrar os commit's com o comando:\n" +
+                "'git log --oneline'\n");
 
+                
             Console.WriteLine("");
         }
     }
