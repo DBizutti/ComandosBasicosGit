@@ -55,12 +55,20 @@ namespace mod8___PrincipaisComandosGit {
                 "- Para excluir o ultimo commit e também as alteraçoes, digite:\n" +
                 "'git reset --hard HEAD~1'\n");
 
-            Console.WriteLine("► Visualizar algum commit anterior - comando checkout");
+            Console.WriteLine("► VISUALIZAR ALGUM COMMIT ANTERIOR - COMANDO CHECKOUT");
             Console.WriteLine("-- Para apenas visualizar o projeto nos commits anteriores o projeto atual precisa estar sem alteraçoes, ou seja, nada para commitar\n" +
                 "- Para visualizar, digite:\n" +
                 "'git checkout CODIGO DO COMMIT'\n" +
                 "Para voltar ao projeto atual, digite:\n" +
                 "'git checkout NOME DA BRANCH'\n");
+
+            Console.WriteLine("► ASSOCIANDO A UM REPOSITORIO REMOTO - COMANDO ADD E SET-URL");
+            Console.WriteLine("- Para associar o repositório local ao repositorio remoto, dando o apelido de 'origin' a ele:\n" +
+                "'git remote add origin URL DO REPOSITORIO REMOTO'\n" +
+                "- Para associar o repositório local a um outro repositorio remoto, mantendo o mesmo o apelido:\n" +
+                "'git remote set-url origin URL DO REPOSITORIO REMOTO'\n'");
+
+            Console.WriteLine();
         
         
         
