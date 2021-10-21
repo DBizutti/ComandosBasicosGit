@@ -49,7 +49,13 @@ namespace mod8___PrincipaisComandosGit {
                 "Após esse comando digite:\n" +
                 "'git checkout -- .'");
 
-            Console.WriteLine();
+            Console.WriteLine("► DESFAZER O ULTIMO COMMIT - COMANDO RESET");
+            Console.WriteLine("- Para excluir o ultimo commit e manter as alteraçoes, digite:\n" +
+                "'git reset --soft HEAD~1'\n" +
+                "- Para excluir o ultimo commit e também as alteraçoes, digite:\n" +
+                "'git reset --hard HEAD~1'\n");
+
+            Console.WriteLine("");
         
         
         
