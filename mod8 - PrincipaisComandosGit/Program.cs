@@ -43,7 +43,7 @@ namespace mod8___PrincipaisComandosGit {
                 "'git log --oneline'\n");
 
             Console.WriteLine("► VOLTAR AO COMMIT ATUAL - COMANDO CLEAN E CHECKOUT");
-            Console.WriteLine("-- Esses comando sáo usados caso de algum erro ou voce se perca no projeto, ele volta para o estado do ultimo commit feito, descartando todas as modificacoes");
+            Console.WriteLine("-- Esses comando sao usados caso de algum erro ou voce se perca no projeto, ele volta para o estado do ultimo commit feito, descartando todas as modificacoes");
             Console.WriteLine("- Para voltar ao estado do ultimo commit, digite:\n" +
                 "'git clean -df'\n" +
                 "Após esse comando digite:\n" +
