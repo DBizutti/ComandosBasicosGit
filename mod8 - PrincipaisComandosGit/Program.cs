@@ -80,10 +80,11 @@ namespace mod8___PrincipaisComandosGit {
                 "'git clone LINK'\n" +
                 "OBS.: Apenas baixar como zip nao copia o historico de versoes\n");
 
-            Console.WriteLine();
-        
-        
-        
+            Console.WriteLine("► ATUALIZANDO O REPOSITORIO LOCAL DE ACORDO COM O REPOSITORIO REMOTO - COMANDO PULL");
+            Console.WriteLine("-- Em caso de 2 ou mais pessoas estejam fazendo o mesmo projeto utiliza-se esse comando para que possa fazer o comando push sem problemas mais para frente\n" +
+                "- Para atualizar o repositorio local, digite:\n" +
+                "'git pull <APELIDO> <BRANCH>'\n");
+
         }
     }
 }
