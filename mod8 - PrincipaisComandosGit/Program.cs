@@ -68,7 +68,12 @@ namespace mod8___PrincipaisComandosGit {
                 "- Para associar o repositório local a um outro repositorio remoto, mantendo o mesmo o apelido:\n" +
                 "'git remote set-url origin URL DO REPOSITORIO REMOTO'\n'");
 
-            Console.WriteLine();
+            Console.WriteLine("► TRANSFERINDO PARA O REPOSITORIO REMOTO - COMANDO PUSH");
+            Console.WriteLine("- Para transferir os arquivos pela primeira vez:\n" +
+                "'git push -u <APELIDO> <BRANCH>'\n" +
+                "- Para transferir os arquivos modificados:\n" +
+                "'git push'\n");
+
         
         
         
