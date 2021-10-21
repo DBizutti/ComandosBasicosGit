@@ -47,7 +47,7 @@ namespace mod8___PrincipaisComandosGit {
             Console.WriteLine("- Para voltar ao estado do ultimo commit, digite:\n" +
                 "'git clean -df'\n" +
                 "Após esse comando digite:\n" +
-                "'git checkout -- .'");
+                "'git checkout -- .'\n");
 
             Console.WriteLine("► DESFAZER O ULTIMO COMMIT - COMANDO RESET");
             Console.WriteLine("- Para excluir o ultimo commit e manter as alteraçoes, digite:\n" +
@@ -55,7 +55,12 @@ namespace mod8___PrincipaisComandosGit {
                 "- Para excluir o ultimo commit e também as alteraçoes, digite:\n" +
                 "'git reset --hard HEAD~1'\n");
 
-            Console.WriteLine("");
+            Console.WriteLine("► Visualizar algum commit anterior - comando checkout");
+            Console.WriteLine("-- Para apenas visualizar o projeto nos commits anteriores o projeto atual precisa estar sem alteraçoes, ou seja, nada para commitar\n" +
+                "- Para visualizar, digite:\n" +
+                "'git checkout CODIGO DO COMMIT'\n" +
+                "Para voltar ao projeto atual, digite:\n" +
+                "'git checkout NOME DA BRANCH'\n");
         
         
         
