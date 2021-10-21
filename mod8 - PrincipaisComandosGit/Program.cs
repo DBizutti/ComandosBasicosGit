@@ -74,6 +74,13 @@ namespace mod8___PrincipaisComandosGit {
                 "- Para transferir os arquivos modificados:\n" +
                 "'git push'\n");
 
+            Console.WriteLine("► TRANSFERIR O REPOSITORIO REMOTO PARA SEU COMPUTADOR - COMANDO CLONE");
+            Console.WriteLine("- Vá até o repositório que deseja copiar para seu computador, clique em code e copie o link\n" +
+                "- Abra o GitBash onde deseja colar o arquivo e digite o comando:\n" +
+                "'git clone LINK'\n" +
+                "OBS.: Apenas baixar como zip nao copia o historico de versoes\n");
+
+            Console.WriteLine();
         
         
         
